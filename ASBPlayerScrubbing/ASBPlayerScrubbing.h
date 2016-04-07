@@ -38,4 +38,6 @@
 // Returns the formatted representation of the specified time. If showTimeFrames is YES, the representation respects the player frame rate.
 - (NSString *)timecodeForTimeInterval:(NSTimeInterval)time;
 
+- (void)playPause:(id)sender;
+
 @end
